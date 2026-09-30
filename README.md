@@ -32,6 +32,5 @@ If `dotnet` is not in your PATH, use:
 - `MainWindow.xaml.cs` coordinates the timer, filtering, sorting, and buttons.
 - `Services/ResourceMonitorService.cs` safely reads Windows resource data.
 - `Models` contains the small data objects displayed by the UI.
-- `docs/INTERVIEW-NOTES.md` contains a plain-language walkthrough for interviews.
 
 The CPU value starts at zero briefly because Windows needs two system-time samples to calculate a percentage. Some protected processes can expose only limited information which is shown as `Limited` instead of causing the monitor to fail.
